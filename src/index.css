@@ -1,0 +1,13 @@
+@import url(src/App.css);
+
+/*=========RESET===========*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:not(dialog) {
+  margin: 0;
+  padding: 0;
+}

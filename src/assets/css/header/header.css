@@ -14,6 +14,10 @@
     align-items: center;
     line-height: 1;
 
+    & .page-title {
+      font-size: 3rem;
+    }
+
     & span {
       letter-spacing: 2px;
     }
@@ -31,17 +35,42 @@
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+
+  
   padding-block: 0.75rem;
   padding-inline: 1rem;
   /* border: 1px solid hsl(var(--clr-purple-500)); */
   border-radius: 999px;
   box-shadow: var(--shadow-l);
+  
 
   & input[type="search"] {
+    font-family: var(--ff-main-sans);
+    font-size: 1rem;
     border-radius: .4rem;
     padding-block: .35rem;
     padding-inline: .55rem;
     border: none;
+    background-color: transparent;
+    color: hsl(var(--clr-pastelwhite-500));
+    
+  }
+
+  & input[type="search"]::placeholder {
+    color: hsl(var(--clr-pastelwhite) / 0.55);
+    letter-spacing: 0.5px;
+  }
+
+  & input[type="search"]:focus,
+  & input[type="search"]:active {
+    outline: none;
+
+  }
+
+  & input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    display: none;
+
   }
 }
 

@@ -8,7 +8,7 @@ export const NavBar = () => {
       </div>
       <div className="title-wrapper">
         <span className="drop-shadow-sm">use</span>
-        <h1 className="drop-shadow-sm">Astra</h1>
+        <h1 className="drop-shadow-sm page-title">Astra</h1>
       </div>
     </nav>
   );

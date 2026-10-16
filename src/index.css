@@ -15,6 +15,7 @@
 
 /*=============GLOBAL STYLES=============*/
 :root {
+  /*==========COLORS==========*/
   --clr-darkest: 52 9 18; /* #33322B */
   --clr-darkbrown: 28 31 19; /* #403022  Marrom escuro */
   --clr-offwhite: 39 50 90; /*#F2E9D8 Creme */
@@ -24,13 +25,27 @@
   --clr-golden-500: 41 100 49; /* #FAAA00 Dourado */
   --clr-magenta-500: 289 75 61; /* #CA50E6 Magenta*/
   --clr-purple-500: 256 75 61; /* #7950E6 Roxo light*/
+  /*==================================================*/
 
+
+  /*=================SHADOWS=================*/
   --shadow-s:
     inset 0 1px 2px #ffffff30, 0 1px 2px #00000030, 0 2px 4px #00000015;
   --shadow-m:
     inset 0 1px 2px #ffffff50, 0 2px 4px #00000030, 0 4px 8px #00000015;
   --shadow-l:
     inset 0 1px 2px #ffffff70, 0 4px 6px #00000030, 0 6px 10px #00000015;
+  /*==============================================*/
+
+  /*=================FONTS=================*/
+  --ff-main-sans: "Montserrat", sans-serif;
+  --ff-main-serif: "Playfair Display", serif;
+  --ff-main-mono: "Fira Code", monospace;
+  --ff-accent-sans: "Bungee Shade", sans-serif;
+  --ff-accent-serif: "Isometra", serif;
+  --ff-accent-mono: "Quicksand", monospace;
+  --ff-accent-mono-alt: "Spinnaker", monospace;
+  /*==============================================*/
 }
 
 body {
